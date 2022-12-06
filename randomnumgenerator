@@ -1,0 +1,39 @@
+import random
+
+top_range=input("type a number: ")
+if top_range.isdigit():
+    top_range=int(top_range)
+    if top_range<=0:
+        print("please type a number larger than zero next time")
+        quit()
+else:
+    print("please type a number next time")
+    quit()
+random_number=random.random(list(5))
+print(random_number)
+import random
+
+top_range=input("type a number: ")
+if top_range.isdigit():
+    top_range=int(top_range)
+    if top_range<=0:
+        print("please type a number larger than zero next time")
+        quit()
+else:
+    print("please type a number next time")
+    quit()
+random_number=random.randint(0,5)
+print(random_number)
+import random
+
+top_range=input("type a number: ")
+if top_range.isdigit():
+    top_range=int(top_range)
+    if top_range<=0:
+        print("please type a number larger than zero next time")
+        quit()
+else:
+    print("please type a number next time")
+    quit()
+random_number=random.randint(0,5)
+print(random_number)
